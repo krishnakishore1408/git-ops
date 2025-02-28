@@ -5,12 +5,11 @@ jobs:
     first_job:
         runs-on: ubuntu-latest
         steps:
-        - name: Welcome to my workflow
-          run: echo "Welcome"
+        - name: CheckoutRepo
+          uses: actions/checkout@v4
 
         - name: List file
-          run: ls
-
-        - name: Readfile
-          run: cat README.md
+          run: 
+            ls
+            cat README.md
 
