@@ -8,8 +8,9 @@ jobs:
         - name: CheckoutRepo
           uses: actions/checkout@v4
 
-        - name: List file
+        - name: List files
           run: 
             ls
             cat README.md
+
 
