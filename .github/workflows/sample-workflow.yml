@@ -3,7 +3,7 @@ name: Sample Workflow
 on: push
 jobs:
     first_job:
-        runs-on: ubuntua-latest
+        runs-on: ubuntu-latest
         steps:
         - name: Welcome to my workflow
           run: echo "Welcome"
