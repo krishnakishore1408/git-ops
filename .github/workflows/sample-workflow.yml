@@ -13,6 +13,5 @@ jobs:
             ls
             cat README.md
 
-        - name: Readfile
-          run: cat README.md
+
 
