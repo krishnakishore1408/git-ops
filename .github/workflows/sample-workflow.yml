@@ -8,9 +8,9 @@ jobs:
         - name: Welcome to my workflow
           run: echo "Welcome"
 
-        -name: List file
-         run: ls
+        - name: List file
+          run: ls
 
-         -name: Readfile
+        - name: Readfile
           run: cat README.md
 
