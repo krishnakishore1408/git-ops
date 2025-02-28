@@ -10,3 +10,6 @@ jobs:
 
         - name: Generate ASCII Artwork
           run: cowsay -f dragon "Run for me ..." >>dragon.txt 
+
+        - name: Cat Dragon file
+          run: cat dragon.txt
