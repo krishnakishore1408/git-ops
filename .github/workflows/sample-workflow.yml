@@ -12,3 +12,6 @@ jobs:
           run: |
             ls
             cat README.md
+
+        - name: Generate ASCII Artwork
+          run: cowsay -f dragon "Run for me ..." >>dragon.txt 
