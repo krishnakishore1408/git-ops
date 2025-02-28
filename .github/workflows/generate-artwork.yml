@@ -6,7 +6,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: Install Cowsay
-          uses: sudo apt install cowsay -y
+          run: sudo apt install cowsay -y
 
         - name: Generate ASCII Artwork
           run: cowsay -f dragon "Run for me ..." >>dragon.txt 
